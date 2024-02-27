@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Photo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<nav class="navbar bg-primary navbar-dark rounded" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> 💾 DigiDocs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+         <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'document_list' %}"> 📃 Document Store</a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'gallery' %}"> 📷 Photo Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<body class="m-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+            <h1>About Our Document Upload App</h1>
+            <p>Welcome to DigiDocs, where you can securely upload, organize, and share your important documents.</p>
+            <p>Our mission is to provide a user-friendly platform for managing and collaborating on documents with ease.</p>
+
+            <h2>Why Choose Our App?</h2>
+            <ul>
+                <li><strong>Secure Document Storage:</strong> We prioritize the security and privacy of your documents.</li>
+                <li><strong>Document Organization:</strong> Easily organize and categorize your documents for quick access.</li>
+                <li><strong>Accessibility:</strong> Access your documents from anywhere, anytime.</li>
+            </ul>
+
+      
+            Project By - <strong>Aditya Bhambere</strong>
+               
+            
+  
+              
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
